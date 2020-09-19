@@ -57,13 +57,13 @@ export default class Queue<QueueEle> {
 	}
 }
 
-const queue = new Queue();
-queue.enqueue(123);
-console.log(queue);
-queue.enqueue('Jack');
-console.log(queue);
-queue.dequeue();
-console.log(queue);
-queue.enqueue('element');
-console.log(queue.size());
-console.log(queue.toString());
+// const queue = new Queue();
+// queue.enqueue(123);
+// console.log(queue);
+// queue.enqueue('Jack');
+// console.log(queue);
+// queue.dequeue();
+// console.log(queue);
+// queue.enqueue('element');
+// console.log(queue.size());
+// console.log(queue.toString());
