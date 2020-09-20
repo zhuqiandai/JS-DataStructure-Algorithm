@@ -28,5 +28,5 @@ var palindromeChecker = function (word) {
 console.log(palindromeChecker('a'));
 console.log(palindromeChecker('kayak'));
 console.log(palindromeChecker('number is none'));
-console.log(palindromeChecker('not at alln'));
+console.log(palindromeChecker('nottalln'));
 console.log(palindromeChecker('was ......... saw'));
