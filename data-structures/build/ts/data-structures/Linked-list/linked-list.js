@@ -45,7 +45,11 @@ var LinkedList = (function () {
     };
     LinkedList.prototype.insert = function () { };
     LinkedList.prototype.remove = function () { };
-    LinkedList.prototype.removeAt = function () { };
+    LinkedList.prototype.removeAt = function (index) {
+        if (index > 0 && index < this.count) {
+        }
+        return undefined;
+    };
     LinkedList.prototype.clear = function () { };
     LinkedList.prototype.toString = function () { };
     return LinkedList;
