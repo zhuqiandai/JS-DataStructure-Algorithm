@@ -1,13 +1,19 @@
-const arr = [2062, 90410, 71989, 30824, 47870, 65359]
+export const arr = [2062, 90410, 71989, 30824, 47870, 65359]
 
-// export function compareFn(a, b) {
-//   if (a > b) return true
-//   if (a <= b) return false
-// }
+const COMPARE = {
+  BIGGER_THAN: 1,
+  LESS_THAN: -1,
+  EQUAL: 0,
+}
 
-// export function swap(array, a, b) {
-//   ;[array[a], array[b]] = [array[b], array[a]]
-// }
+export function compareFn(array, a, b) {
+  if (array[a] > array[b]) return COMPARE.BIGGER_THAN
+  if (array[a] < array[b]) return COMPARE.LESS_THAN
+}
+
+export function swap(array, a, b) {
+  ;[array[a], array[b]] = [array[b], array[a]]
+}
 
 export function findMaxMinValue(arr) {
   let max = arr[0]
